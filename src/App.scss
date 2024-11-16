@@ -1,0 +1,15 @@
+@import './scss/settings/colors';
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: $background-color;
+}
