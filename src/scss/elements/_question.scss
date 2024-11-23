@@ -1,0 +1,23 @@
+@import '../settings/colors';
+@import '../settings/font';
+
+.question-text {
+    font-size: $font-size-heading;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.option {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 10px;
+    
+    .option-btn {
+        background-color: $answers-color;
+        &:hover {
+            background-color: $app-button-hover-color;
+        }
+    }
+}
+
+

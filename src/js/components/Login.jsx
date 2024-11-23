@@ -1,35 +1,37 @@
-import React, { useRef, useState } from 'react';
-import countriesList from '../../data/countries.json';
+import React, { useState } from 'react';
 
-export const Login = ({ setUsername }) => {
-    const [selectedCountry, setSelectedCountry] = useState('');
-    const inputRef = useRef();
+const Login = ({ onLogin }) => {
+    const [username, setUsername] = useState('');
 
-    const handleUsername = (e) => {
+    const handleSubmit = (e) => {
         e.preventDefault();
-        inputRef.current.value && setUsername(inputRef.current.value);
+        if (username) {
+            onLogin(username);
+        }
     };
-    const handleCountryChange = (e) => {
-        setSelectedCountry(e.target.value);
-    };
+
     return (
-        <form className="start">
-            <input placeholder="Enter your name" className="start-input" ref={inputRef} />
-            <button className="start-button" onClick={handleUsername}>
+        <form className="login-form" onSubmit={handleSubmit}>
+            <h2 className="login-form-title">Login</h2>
+            <div className="login-form-group">
+                <label className="login-form-label" htmlFor="username">
+                    Username:
+                </label>
+                <input
+                    className="login-form-input"
+                    id="username"
+                    type="text"
+                    value={username}
+                    onChange={(e) => setUsername(e.target.value)}
+                    placeholder="Enter your username..."
+                    required
+                />
+            </div>
+            <button className="login-form-button" type="submit">
                 Start
             </button>
-
-            <select id="country" value={selectedCountry} onChange={handleCountryChange}>
-                <option value="">Select country</option>
-                {countriesList.map((country) => {
-                    return (
-                        <option value={country.id} key={country.id}>
-                            {country.name}
-                        </option>
-                    );
-                })}
-            </select>
-           
         </form>
     );
 };
+
+export default Login;

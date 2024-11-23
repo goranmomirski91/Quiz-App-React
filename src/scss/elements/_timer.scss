@@ -1,0 +1,17 @@
+@import '../settings/colors';
+@import '../settings/font';
+.timer {
+    width: 70px;
+    height: 70px;
+    background-color: $timer-color;
+    color: white;
+    padding: 10px;
+    border-radius: 50%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: $font-size-heading;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

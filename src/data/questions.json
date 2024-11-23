@@ -1,262 +1,52 @@
 [
     {
-        "id": 1,
-        "question": "Koji je glavni grad Srbije?",
-        "answers": [
-            {
-                "option": "A",
-                "text": "Novi Sad",
-                "correct": false
-            },
-            {
-                "option": "B",
-                "text": "Beograd",
-                "correct": true
-            },
-            {
-                "option": "C",
-                "text": "Niš",
-                "correct": false
-            },
-            {
-                "option": "D",
-                "text": "Kragujevac",
-                "correct": false
-            }
-        ]
+        "question": "1. Koji je glavni grad Srbije?",
+        "options": ["Novi Sad", "Beograd", "Niš", "Kragujevac"],
+        "correctAnswer": "Beograd"
     },
     {
-        "id": 2,
-        "question": "Koja je najduža reka u Evropi?",
-        "answers": [
-            {
-                "option": "A",
-                "text": "Dunav",
-                "correct": false
-            },
-            {
-                "option": "B",
-                "text": "Volga",
-                "correct": true
-            },
-            {
-                "option": "C",
-                "text": "Sena",
-                "correct": false
-            },
-            {
-                "option": "D",
-                "text": "Rajna",
-                "correct": false
-            }
-        ]
+        "question": "2. Koja je najduža reka u Evropi?",
+        "options": ["Dunav", "Volga", "Sena", "Rajna"],
+        "correctAnswer": "Volga"
     },
     {
-        "id": 3,
-        "question": "Koliko kontinenata postoji na Zemlji?",
-        "answers": [
-            {
-                "option": "A",
-                "text": "5",
-                "correct": false
-            },
-            {
-                "option": "B",
-                "text": "6",
-                "correct": false
-            },
-            {
-                "option": "C",
-                "text": "7",
-                "correct": true
-            },
-            {
-                "option": "D",
-                "text": "8",
-                "correct": false
-            }
-        ]
+        "question": "3. Koliko kontinenata postoji na Zemlji?",
+        "options": ["5", "6", "7", "8"],
+        "correctAnswer": "7"
     },
     {
-        "id": 4,
-        "question": "Ime grada, poznatog i kao 'Pariz Bliskog istoka', u prevodu znači 'bunar(i)'. O kom gradu je reč?",
-        "answers": [
-            {
-                "option": "A",
-                "text": "Teheran",
-                "correct": false
-            },
-            {
-                "option": "B",
-                "text": "Bagdad",
-                "correct": false
-            },
-            {
-                "option": "C",
-                "text": "Kabul",
-                "correct": false
-            },
-            {
-                "option": "D",
-                "text": "Bejrut",
-                "correct": true
-            }
-        ]
+        "question": "4. Ime grada, poznatog i kao 'Pariz Bliskog istoka', u prevodu znači 'bunar(i)'. O kom gradu je reč?",
+        "options": ["Teheran", "Bagdad", "Kabul", "Bejrut"],
+        "correctAnswer": "Bejrut"
     },
     {
-        "id": 5,
-        "question": "Koji kralj je uveo 'Šestojanuarsku diktaturu'?",
-        "answers": [
-            {
-                "option": "A",
-                "text": "Aleksandar I Karađorđević",
-                "correct": true
-            },
-            {
-                "option": "B",
-                "text": "Petar I Karađorđević",
-                "correct": false
-            },
-            {
-                "option": "C",
-                "text": "Petar II Karađorđević",
-                "correct": false
-            },
-            {
-                "option": "D",
-                "text": "Pavle Karađorđević",
-                "correct": false
-            }
-        ]
+        "question": "5. Koji kralj je uveo 'Šestojanuarsku diktaturu'?",
+        "options": ["Aleksandar I Karađorđević", "Petar I Karađorđević", "Petar II Karađorđević", "Pavle Karađorđević"],
+        "correctAnswer": "Aleksandar I Karađorđević"
     },
     {
-        "id": 6,
-        "question": "Koliko ima osnovnih jedinica u SI sistemu?",
-        "answers": [
-            {
-                "option": "A",
-                "text": "7",
-                "correct": true
-            },
-            {
-                "option": "B",
-                "text": "8",
-                "correct": false
-            },
-            {
-                "option": "C",
-                "text": "10",
-                "correct": false
-            },
-            {
-                "option": "D",
-                "text": "12",
-                "correct": false
-            }
-        ]
+        "question": "6. Koliko ima osnovnih jedinica u SI sistemu?",
+        "options": ["7", "8", "9", "10"],
+        "correctAnswer": "7"
     },
     {
-        "id": 7,
-        "question": "Koja je hemijska formula za vodu?",
-        "answers": [
-            {
-                "option": "A",
-                "text": "H2O",
-                "correct": true
-            },
-            {
-                "option": "B",
-                "text": "CO2",
-                "correct": false
-            },
-            {
-                "option": "C",
-                "text": "NaCl",
-                "correct": false
-            },
-            {
-                "option": "D",
-                "text": "O2",
-                "correct": false
-            }
-        ]
+        "question": "7. Koja je hemijska formula za vodu?",
+        "options": ["H2O", "CO2", "NaCl", "O2"],
+        "correctAnswer": "H2O"
     },
     {
-        "id": 8,
-        "question": "Ko je napisao roman 'Don Kihot'?",
-        "answers": [
-            {
-                "option": "A",
-                "text": "Vilijam Šekspir",
-                "correct": false
-            },
-            {
-                "option": "B",
-                "text": "Viktor Igo",
-                "correct": false
-            },
-            {
-                "option": "C",
-                "text": "Migel de Servantes",
-                "correct": true
-            },
-            {
-                "option": "D",
-                "text": "Lav Tolstoj",
-                "correct": false
-            }
-        ]
+        "question": "8.Ko je napisao roman 'Don Kihot'?",
+        "options": ["Vilijam Šekspir", "Viktor Igo", "Migel de Servantes", "Lav Tolstoj"],
+        "correctAnswer": "Migel de Servantes"
     },
     {
-        "id": 9,
-        "question": "Koji je glavni grad Australije?",
-        "answers": [
-            {
-                "option": "A",
-                "text": "Sidnej",
-                "correct": false
-            },
-            {
-                "option": "B",
-                "text": "Melburn",
-                "correct": false
-            },
-            {
-                "option": "C",
-                "text": "Kanbera",
-                "correct": true
-            },
-            {
-                "option": "D",
-                "text": "Pert",
-                "correct": false
-            }
-        ]
+        "question": "9. Koji je glavni grad Australije?",
+        "options": ["Sidnej", "Melburn", "Kanbera", "Pert"],
+        "correctAnswer": "Kanbera"
     },
     {
-        "id": 10,
-        "question": "Koji je najveći okean na svetu?",
-        "answers": [
-            {
-                "option": "A",
-                "text": "Atlantski",
-                "correct": false
-            },
-            {
-                "option": "B",
-                "text": "Indijski",
-                "correct": false
-            },
-            {
-                "option": "C",
-                "text": "Severni-ledeni",
-                "correct": false
-            },
-            {
-                "option": "D",
-                "text": "Tihi",
-                "correct": true
-            }
-        ]
+        "question": "10. Koji je najveći okean na svetu?",
+        "options": ["Atlantski", "Indijski", "Severni-ledeni", "Tihi"],
+        "correctAnswer": "Tihi"
     }
 ]
