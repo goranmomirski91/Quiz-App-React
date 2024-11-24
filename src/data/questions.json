@@ -1,52 +1,52 @@
 [
     {
-        "question": "1. Koji je glavni grad Srbije?",
-        "options": ["Novi Sad", "Beograd", "Niš", "Kragujevac"],
-        "correctAnswer": "Beograd"
+        "question": "1. What is the capital of Serbia?",
+        "options": ["Novi Sad", "Belgrade", "Niš", "Kragujevac"],
+        "correctAnswer": "Belgrade"
     },
     {
-        "question": "2. Koja je najduža reka u Evropi?",
-        "options": ["Dunav", "Volga", "Sena", "Rajna"],
+        "question": "2. What is the longest river in Europe?",
+        "options": ["Danube", "Volga", "Seine", "Rhine"],
         "correctAnswer": "Volga"
     },
     {
-        "question": "3. Koliko kontinenata postoji na Zemlji?",
+        "question": "3. How many continents are on the Earth?",
         "options": ["5", "6", "7", "8"],
         "correctAnswer": "7"
     },
     {
-        "question": "4. Ime grada, poznatog i kao 'Pariz Bliskog istoka', u prevodu znači 'bunar(i)'. O kom gradu je reč?",
-        "options": ["Teheran", "Bagdad", "Kabul", "Bejrut"],
-        "correctAnswer": "Bejrut"
+        "question": "4. What is the longest that an elephant has ever lived? (That we know of)",
+        "options": ["17 years", "49 years", "86 years", "142 years"],
+        "correctAnswer": "86 years"
     },
     {
-        "question": "5. Koji kralj je uveo 'Šestojanuarsku diktaturu'?",
-        "options": ["Aleksandar I Karađorđević", "Petar I Karađorđević", "Petar II Karađorđević", "Pavle Karađorđević"],
-        "correctAnswer": "Aleksandar I Karađorđević"
+        "question": "5. How many rings are on the Olympic flag?",
+        "options": ["4", "5", "6", "7"],
+        "correctAnswer": "5"
     },
     {
-        "question": "6. Koliko ima osnovnih jedinica u SI sistemu?",
+        "question": "6. How many base units are in SI system?",
         "options": ["7", "8", "9", "10"],
         "correctAnswer": "7"
     },
     {
-        "question": "7. Koja je hemijska formula za vodu?",
+        "question": "7. What is the chemical formula for water?",
         "options": ["H2O", "CO2", "NaCl", "O2"],
         "correctAnswer": "H2O"
     },
     {
-        "question": "8.Ko je napisao roman 'Don Kihot'?",
-        "options": ["Vilijam Šekspir", "Viktor Igo", "Migel de Servantes", "Lav Tolstoj"],
-        "correctAnswer": "Migel de Servantes"
+        "question": "8.Who wrote 'Don Kihot'?",
+        "options": ["William Shakespeare", "Victor Hugo", "Miguel de Cervantes", "Leo Tolstoy"],
+        "correctAnswer": "Miguel de Cervantes"
     },
     {
-        "question": "9. Koji je glavni grad Australije?",
-        "options": ["Sidnej", "Melburn", "Kanbera", "Pert"],
-        "correctAnswer": "Kanbera"
+        "question": "9. What is the capital of Australia?",
+        "options": ["Sidney", "Melbourne", "Canbera", "Perth"],
+        "correctAnswer": "Canbera"
     },
     {
-        "question": "10. Koji je najveći okean na svetu?",
-        "options": ["Atlantski", "Indijski", "Severni-ledeni", "Tihi"],
-        "correctAnswer": "Tihi"
+        "question": "10. What is the largest ocean in the world?",
+        "options": ["Atlantic", "Indian", "Arctic", "Pacific"],
+        "correctAnswer": "Pacific"
     }
 ]
